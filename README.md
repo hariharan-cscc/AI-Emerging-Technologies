@@ -4,7 +4,7 @@
 
 Software teams need realistic data to test applications, but copying real customer data into test environments creates privacy and compliance risks. Synthetic data generation uses AI to create fake records that behave like real data without belonging to any real person:
 
-1. Generative models (such as GANs, variational autoencoders, or large language models) learn patterns from real data, like age distributions, policy types, or transaction amounts, and produce new records with the same statistical patterns.
+1. Generative models learn patterns from real data, like age distributions, policy types, or transaction amounts, and produce new records with the same statistical patterns.
 2. AI can keep relationships between tables intact (for example, a customer record that correctly links to their policies and claims), which simple random data generators struggle with.
 3. Teams can generate rare edge cases on demand, like unusual claim types or invalid inputs, to test systems more thoroughly.
 
